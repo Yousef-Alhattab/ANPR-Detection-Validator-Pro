@@ -1,1 +1,36 @@
 
+ANPR Detection Validator Pro
+A professional desktop application for validating Automatic Number Plate Recognition (ANPR) detection results. Built with Python and Tkinter, this tool streamlines the process of reviewing and validating license plate detection accuracy.
+Features
+Core Functionality
+
+📊 CSV Data Loading: Import detection results with support for required columns (vdata_id, fr_anpr, re_anpr, fr_mediaid, re_mediaid)
+🖼️ Dual Image Viewer: Side-by-side display of front and rear vehicle images
+🔍 Advanced Zoom System: Click-to-zoom functionality with original resolution viewing
+✅ Validation Workflow: Mark detections as correct or categorize errors
+📈 Progress Tracking: Real-time validation statistics and progress bar
+💾 Export Results: Generate validated CSV files with validation status
+
+Image Viewing
+
+In-place Zoom: Click on any area to zoom with preserved image quality
+Pan & Navigate: Drag to move around zoomed images
+Mouse Wheel Support: Smooth zoom in/out with scroll wheel
+Multiple Format Support: JPG, PNG, BMP, TIFF image formats
+Smart File Matching: Flexible filename matching with multiple extensions
+
+Validation System
+
+Quick Validation: One-click correct/wrong marking
+Error Categorization: Detailed error types including:
+
+Hidden/Broken plates
+Blur issues
+No license plate
+No vehicle
+Motorcycles
+Wrong vehicle pairing
+
+
+Auto-advance: Automatically move to next record after validation
+CSV Export: Creates *_VALIDATED.csv files with validation results
