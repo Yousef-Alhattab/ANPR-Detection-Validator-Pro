@@ -1,4 +1,7 @@
+
+
 # ANPR Detection Validator Pro
+![Uploading ScreenRecording2025-08-26101604-ezgif.com-video-to-gif-converter.gif…]()
 
 A professional desktop application for validating Automatic Number Plate Recognition (ANPR) detection results. Built with Python and Tkinter, this tool streamlines the process of reviewing and validating license plate detection accuracy.
 
